@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.0/dist/css/datepicker.min.css">
+  </head>
+  <body>
+    <div id="todo-container">
+      <h1>Task Master</h1>
+      <div class="sidebar">
+        <div class="sidebar-item" id="create-task">
+          <button type="button" class="create-task-btn">+ Create Task</button>
+        </div>
+
+        <div class="sidebar-item" id="all-tasks-sidebar">
+          <div class="sidebar-item-heading">
+            <div class="sidebar-item-heading-title"><a id="all-tasks-link">All Tasks</a></div>
+          </div>
+        </div>
+
+        <div class="sidebar-item" id="lists">
+          <div class="sidebar-item-heading">
+            <div class="sidebar-item-heading-title"><a id="lists-link">Lists</a></div>
+            <div class="sidebar-item-heading-title-after">
+              <button type="button" class="sidebar-collapse-button">
+                <img src="../css/images/caret-down.svg" alt="sidebar-carot" class="caret" id="caret-1">
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-item" id="priority">
+          <div class="sidebar-item-heading">
+            <div class="sidebar-item-heading-title" id="priority-link">Priority</div>
+            <div class="sidebar-item-heading-title-after">
+              <button type="button" class="sidebar-collapse-button">
+                <img src="../css/images/caret-down.svg" alt="sidebar-carot" class="caret" id="caret-2">
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
